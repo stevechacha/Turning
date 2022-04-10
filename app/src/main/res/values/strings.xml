@@ -9,4 +9,5 @@
     <string name="login">Login</string>
     <string name="message">Message</string>
     <string name="name">Name</string>
+    <string name="text">Here, we use the “View” tag to create a rectangle with a very small width such that it becomes a vertical line. In the above code, a red vertical line of height ‘560dp’ and width ‘2dp’ is drawn which is at a left margin of ‘175dp’ from the left side of</string>
 </resources>

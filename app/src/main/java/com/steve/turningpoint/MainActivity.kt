@@ -12,9 +12,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setUpRecyclerview()
 
-        binding.next.setOnClickListener {
-            startActivity(Intent(this,LoginActivity::class.java))
+
+
+
+    }
+
+    private fun setUpRecyclerview() {
+       val mainAdapter = MainAdapter()
+        binding.recycler.apply {
+            adapter = mainAdapter
         }
     }
 }
